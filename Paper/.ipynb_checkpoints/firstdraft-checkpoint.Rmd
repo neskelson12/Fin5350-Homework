@@ -1,0 +1,66 @@
+---
+output: 
+  pdf_document:
+    citation_package: natbib
+    keep_tex: true
+    fig_caption: true
+    latex_engine: pdflatex
+    template: ./svm-latex-ms.tex
+title: "The Role of Machine Learning in Econometrics"
+author: Nathan Eskelson
+- name: Nathan Eskelson
+  affiliation: Jon M. Huntsman School of Business
+abstract: "In this article I will discuss the value of data and data analysis in disequilibrium. It will focus on how companies are using this data and what the best methodology is in acquiring this data. Beginning wih the comparison of methodology to finance that Buchanon proposes. Diving into machine learning and reinforcement learning, this will further dive into how data is being used. In conclusion, it can be determined that the value of date is important econometrics and the business world. With it, this is how companies give themselves an advantage in our market of disequilibrium."
+keywords: "machine learning, reinforcement learning, ML, RL, "
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+geometry: margin=1in
+fontfamily: mathpazo
+fontsize: 11pt
+spacing: double
+bibliography: ./master.bib
+biblio-style: apsr
+---
+
+
+>  
+
+# Introduction
+
+Machine learning was first introduced in 1959 by Arthur Samuel. @wiki:machinelearning It was first introduced in 1959, however it is really growing at a rapid pace today. Find a way to reference @Buchanon1979 in this section. The three things that form a business analytics triangle are Economics, Statistics, and Computer Science. Statistics and Computer Science being the base while Economics is at the top. The value of data, the storage of data, and the access we have to data have all increased in today's world. So how can we better use this data in econometrics? We need to be focusing on the right people and entities as Buchanon suggested.
+
+## Subsection 1
+
+- @hayek1945use, prices and how people coordinate different actions.
+- Begin to get into decision theory here. 
+- Briefly touch on arbitrage and disequilibrium.
+- Markets/what makes them competitive. (@Buchanon1979)
+
+
+## Subsection 2 
+
+- @taddy2017. Begin to really introduce machine learning.
+- Economic AI
+- The ML doesn't create new economic insights or replace economists. It automates and accelerates subjective labor-intense measurement.
+- Instruments are every where inside of companies, they just aren't used right. 
+
+# Middle Section
+
+- @sutton1998reinforcement. Reinforcement learning. 
+- Spark clusters/storm.
+- Begin to tie back to the value of data and data analysis from the introduction with reinforcement learning. 
+
+# Summary and Conclusion
+
+Conclusion of the paper.
+- Sum up each of our subsections.
+- Give the conclusion of the value of data in disequilibrium.
+
+<!--
+# References
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
+\vspace*{-0.2in}
+\noindent
+-->
+
